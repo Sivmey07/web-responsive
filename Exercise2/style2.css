@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: auto;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }  
+}
+
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+}
+ 
